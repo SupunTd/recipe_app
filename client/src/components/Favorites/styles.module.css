@@ -1,0 +1,45 @@
+.favorites_container {
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.recipe_card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+
+.recipe_card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe_img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recipe_info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.recipe_name {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.heart_icon {
+    cursor: pointer;
+    transition: fill 0.3s;
+}

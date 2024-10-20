@@ -1,0 +1,91 @@
+.main_container {
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.navbar {
+	background-color: #f8f9fa;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.category_buttons {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.category_btn {
+	margin: 0 20px;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	background-color: #f9f9f9;
+	padding: 10px 20px;
+	border: 2px solid pink;
+	border-radius: 20px;
+}
+
+.category_btn:hover {
+	background-color: lightpink;
+}
+
+.active_category {
+	margin: 0 20px;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	background-color: #f9f9f9;
+	padding: 10px 20px;
+	border: 2px deeppink;
+	border-radius: 20px;
+}
+
+.recipe_grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.recipe_card {
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 8px;
+	text-align: center;
+	width: calc(16% - 20px);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s;
+}
+
+.recipe_card:hover {
+	transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.recipe_img {
+	width: 90%;
+	border-radius: 10px;
+}
+
+.favorite_btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	margin-left: 8px; /* Space between name and heart */
+}
+
+.favorite_btn svg {
+	width: 20px;
+	height: 20px;
+	transition: fill 0.3s, stroke 0.3s; /* Smooth color transition */
+}
+
+.favorited svg {
+	fill: pink; /* Color when favorited */
+	stroke: pink; /* Outline color when favorited */
+}
+
+svg {
+	stroke: black; /* Outline color when not favorited */
+}
