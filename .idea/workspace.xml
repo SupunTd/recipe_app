@@ -64,7 +64,7 @@
       <workItem from="1729484492568" duration="12000" />
       <workItem from="1729485001983" duration="643000" />
       <workItem from="1729487388048" duration="1744000" />
-      <workItem from="1729491536948" duration="1871000" />
+      <workItem from="1729491536948" duration="2202000" />
     </task>
     <task id="LOCAL-00001" summary="version control">
       <option name="closed" value="true" />
@@ -98,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729493113016</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update vercel.json">
+      <option name="closed" value="true" />
+      <created>1729493432956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729493432956</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
