@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import styles from "./styles.module.css";
 import Header from "../Header/Header"; // Adjust path if necessary
+import { API_BASE_URL } from "../config";
 
 const Favorites = () => {
     const [favorites, setFavorites] = useState([]);
@@ -14,7 +15,7 @@ const Favorites = () => {
             if (!user._id) return; // No user logged in
 
             try {
-                const res = await axios.get(`http://localhost:5000/api/favorites/${user._id}`);
+                const res = await axios.get(`${API_BASE_URL}/api/favorites/${user._id}`);
                 console.log("Favorites fetched:", res.data); // Log the fetched data
                 setFavorites(res.data);
             } catch (err) {
@@ -32,7 +33,7 @@ const Favorites = () => {
         if (!user._id) return; // No user logged in
 
         try {
-            await axios.delete("http://localhost:5000/api/favorites", {
+            await axios.delete(`${API_BASE_URL}/api/favorites`, {
                 data: { userId: user._id, recipeId },
             });
             // Update the local state to remove the deleted recipe

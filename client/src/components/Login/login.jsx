@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 import Header from "../Header/Header"
 import logo from "../Images/logo.png";
+import { API_BASE_URL } from "../config";
 
 const Login = () => {
 	const [data, setData] = useState({ email: "", password: "" });
@@ -16,7 +17,7 @@ const Login = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:5000/api/auth";
+			const url = `${API_BASE_URL}/api/auth`;
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.token); // Ensure 'res.token' contains the JWT token
 			localStorage.setItem('user', JSON.stringify(res.user));

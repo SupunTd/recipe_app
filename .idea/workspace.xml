@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5971a49-59c5-48c8-95d7-a0eb8a72f108" name="Changes" comment="" />
+    <list default="true" id="b5971a49-59c5-48c8-95d7-a0eb8a72f108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Favorites/favorites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Favorites/favorites.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Login/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Main/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Singup/signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Singup/signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +35,6 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="ddfdb4b7-d0da-400f-9ea7-0a8185847952" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -36,6 +50,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
     "last_opened_file_path": "D:/Projects/recipe_app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +73,10 @@
       <workItem from="1729454602496" duration="55000" />
       <workItem from="1729454834762" duration="216000" />
       <workItem from="1729455055434" duration="375000" />
+      <workItem from="1729457016232" duration="1187000" />
+      <workItem from="1729484492568" duration="12000" />
+      <workItem from="1729485001983" duration="643000" />
+      <workItem from="1729487388048" duration="1744000" />
     </task>
     <servers />
   </component>

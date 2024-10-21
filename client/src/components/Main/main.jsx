@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import styles from "./styles.module.css";
 import Header from "../Header/Header";
+import { API_BASE_URL } from "../config";
 
 const Main = () => {
 	const [categories, setCategories] = useState([]);
@@ -50,7 +51,7 @@ const Main = () => {
 		}
 
 		try {
-			await axios.post("http://localhost:5000/api/favorites", {
+			await axios.post(`${API_BASE_URL}/api/favorites`, {
 				userId: user._id,
 				recipeId: recipe.idMeal,
 			});

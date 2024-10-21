@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 import Header from "../Header/Header";
 import logo from "../Images/logo.png";
+import { API_BASE_URL } from "../config";
 
 const Signup = () => {
 	const [data, setData] = useState({
@@ -40,7 +41,7 @@ const Signup = () => {
 		}
 
 		try {
-			const url = "http://localhost:5000/api/users";
+			const url = `${API_BASE_URL}/api/users`;
 			const { data: res } = await axios.post(url, {
 				firstName: data.firstName,
 				lastName: data.lastName,
