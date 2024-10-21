@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5971a49-59c5-48c8-95d7-a0eb8a72f108" name="Changes" comment="update vercel.json">
-      <change beforePath="$PROJECT_DIR$/server/vercel.json" beforeDir="false" />
-    </list>
+    <list default="true" id="b5971a49-59c5-48c8-95d7-a0eb8a72f108" name="Changes" comment="update vercel.json" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +14,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitToolBoxStore">
@@ -65,6 +63,7 @@
       <workItem from="1729487388048" duration="1744000" />
       <workItem from="1729491536948" duration="6273000" />
       <workItem from="1729505790416" duration="690000" />
+      <workItem from="1729508595080" duration="549000" />
     </task>
     <task id="LOCAL-00001" summary="version control">
       <option name="closed" value="true" />
