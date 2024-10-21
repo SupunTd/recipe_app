@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5971a49-59c5-48c8-95d7-a0eb8a72f108" name="Changes" comment="update vercel.json">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/vercel.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
       <workItem from="1729485001983" duration="643000" />
       <workItem from="1729487388048" duration="1744000" />
       <workItem from="1729491536948" duration="6273000" />
+      <workItem from="1729505790416" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="version control">
       <option name="closed" value="true" />
